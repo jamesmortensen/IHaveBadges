@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "exclude_matches": [  ],
+      "include_globs": [ "http://stackoverflow.com/*", "http://*.stackoverflow.com/*", "http://serverfault.com/*", "http://*.serverfault.com/*", "http://superuser.com/*", "http://*.superuser.com/*", "http://*.stackexchange.com/*", "http://mathoverflow.net/*", "http://area51.stackexchange.com/*", "http://stackapps.com/*" ],
+      "js": [ "ihavebadges.user.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "converted_from_user_script": true,
+   "description": "Turn the badges in the toolbar into a link to the badges in the profile",
+   "name": "IHaveBadges",
+   "version": "1.0",
+   "manifest_version": 2
+}
