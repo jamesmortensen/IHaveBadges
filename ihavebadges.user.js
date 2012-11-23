@@ -1,9 +1,12 @@
 // ==UserScript==
 // @name           IHaveBadges 
-// @namespace      stackoverflow
+// @namespace      http://stackapps.com/q/3759/4812 
 // @author         jmort253 (http://stackoverflow.com/users/552792)
 // @description    Link the badges in the toolbar to the badge section 
+// @homepage       http://stackapps.com/q/3759/4812
+// @version        1.1
 // @include        http://*.stackoverflow.com/*
+// @include        http://stackoverflow.com/*
 // @include        http://*.serverfault.com/*
 // @include        http://serverfault.com/*
 // @include        http://*.superuser.com/*
@@ -11,6 +14,8 @@
 // @include        http://*.stackexchange.com/*
 // @include        http://mathoverflow.net/*
 // @include        http://stackapps.com/*
+// @history        1.0 initial release to the public
+// @history        1.1 who forgets to include stackoverflow? Me! That's who!
 // ==/UserScript==
 
 function with_jquery(f) {
@@ -24,7 +29,7 @@ with_jquery(function($) {
   
     var badge_anchor = $('<a id="badge_anchor" href="#"></a>'); 
     $('#hlinks-user > [title*="badge"]').each(function() {
-        console.info($(this).html());
+        //console.info($(this).html());
         badge_anchor.append($(this));
     });
  
