@@ -5,6 +5,7 @@
 // @description    Link the badges in the toolbar to the badge section 
 // @homepage       http://stackapps.com/q/3759/4812
 // @version        1.1
+// @license        BSD License
 // @include        http://*.stackoverflow.com/*
 // @include        http://stackoverflow.com/*
 // @include        http://*.serverfault.com/*
