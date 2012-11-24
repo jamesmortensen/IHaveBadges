@@ -4,8 +4,9 @@
 // @author         jmort253 (http://stackoverflow.com/users/552792)
 // @description    Link the badges in the toolbar to the badge section 
 // @homepage       http://stackapps.com/q/3759/4812
-// @version        1.1
+// @copyright      2012, James Mortensen (http://stackoverflow.com/users/552792/jmort253) 
 // @license        BSD License
+// @version        1.1
 // @include        http://*.stackoverflow.com/*
 // @include        http://stackoverflow.com/*
 // @include        http://*.serverfault.com/*
