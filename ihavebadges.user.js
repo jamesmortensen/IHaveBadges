@@ -14,10 +14,14 @@
 // @include        http://*.superuser.com/*
 // @include        http://superuser.com/*
 // @include        http://*.stackexchange.com/*
-// @include        http://mathoverflow.net/*
 // @include        http://stackapps.com/*
+// @include        http://*.askubuntu.com/*
+// @include        http://askubuntu.com/*
+// @include        http://*.answers.onstartups.com/*
+// @include        http://answers.onstartups.com/*
 // @history        1.0 initial release to the public
 // @history        1.1 who forgets to include stackoverflow? Me! That's who!
+// @history        1.2 added in answers.onstartups
 // ==/UserScript==
 
 function with_jquery(f) {
